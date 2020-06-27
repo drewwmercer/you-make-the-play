@@ -2,17 +2,23 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import logo from './ymtp-logo-hologram.png';
 import './App.css';
-import { Game } from './components/Game';
-import { Rules } from './components/Rules';
-import { Cards } from './components/Cards';
-import { Contact } from './components/Contact';
-import { NoMatch } from './components/NoMatch';
+import { Game } from './Game';
+import { Rules } from './Rules';
+import { Cards } from './Cards';
+import { Contact } from './Contact';
+import { NoMatch } from './NoMatch';
+import { Layout } from './components/Layout';
+import { NavigationBar } from './components/NavigationBar';
+import { Jumbotron } from './components/Jumbotron';
 
 function App() {
   return (
     <React.Fragment>
-      <div className='App'>
-        <header className='App-header'>
+      <NavigationBar />
+      <Jumbotron />
+      <Layout>
+        <div className='App'>
+          {/* <header className='App-header'> */}
           <img src={logo} className='App-logo' alt='logo' />
 
           <p>COMING SOON</p>
@@ -24,18 +30,19 @@ function App() {
           >
             GitHub
           </a>
-        </header>
-      </div>
+          {/* </header> */}
+        </div>
 
-      <Router>
-        <Switch>
-          <Route exact path='/' component={Game} />
-          <Route path='/rules' component={Rules} />
-          <Route path='/cards' component={Cards} />
-          <Route path='/contact' component={Contact} />
-          <Route component={NoMatch} />
-        </Switch>
-      </Router>
+        <Router>
+          <Switch>
+            <Route exact path='/' component={Game} />
+            <Route path='/rules' component={Rules} />
+            <Route path='/cards' component={Cards} />
+            <Route path='/contact' component={Contact} />
+            <Route component={NoMatch} />
+          </Switch>
+        </Router>
+      </Layout>
     </React.Fragment>
   );
 }
