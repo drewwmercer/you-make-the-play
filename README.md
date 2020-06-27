@@ -1,5 +1,5 @@
 # you-make-the-play
-
+![Node.js CI](https://github.com/drewwmercer/you-make-the-play/workflows/Node.js%20CI/badge.svg)
 ## Background
 One card from this 90-card set was inserted into each Series One pack. Forty-five players are featured on two different cards. The cards measure just about the standard-size but have rounded corners and were meant to be played as part of a game.
 
