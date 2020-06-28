@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import logo from './assets/ymtp-logo-hologram.png';
+import placeholder from './assets/ymtp-placeholder.jpg';
 
 
 export const Cards = () => (
@@ -23,7 +24,7 @@ export const Cards = () => (
                  <Card style={{ width: '18rem' }}>
                    <Card.Img
                      variant='top'
-                     src='./assets/ymtp-placeholder.jpg'
+                     src={require('./assets/ymtp-placeholder.jpg')}
                    />
                    <Card.Body>
                      <Card.Title>Card Title</Card.Title>
@@ -50,7 +51,7 @@ export const Cards = () => (
                </Col>
                <Col>
                  <Card style={{ width: '18rem' }}>
-                   <Card.Img variant='top' src='holder.js/100px180' />
+                   <Card.Img variant='top' src={placeholder} />
                    <Card.Body>
                      <Card.Header className="text-right" as='h5'>1</Card.Header>
                      <Card.Title>Card Title</Card.Title>

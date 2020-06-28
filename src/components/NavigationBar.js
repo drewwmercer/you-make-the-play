@@ -9,7 +9,7 @@ const Styles = styled.div`
     background-color: #222;
   }
 
-  .a,
+  a,
   .navbar-brand,
   .navbar-nav,
   .nav-link {
