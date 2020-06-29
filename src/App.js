@@ -11,6 +11,7 @@ import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import { Jumbotron } from './components/Jumbotron';
 
+
 class App extends Component {
   render() {
     return (
