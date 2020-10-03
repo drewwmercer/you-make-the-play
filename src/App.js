@@ -25,14 +25,7 @@ class App extends Component {
               <img src={logo} className='App-logo' alt='logo' />
 
               <p>COMING SOON</p>
-              <a
-                className='App-link'
-                href='https://github.com/drewwmercer/you-make-the-play'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                GitHub
-              </a>
+
               {/* </header> */}
             </div>
 
