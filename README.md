@@ -16,7 +16,7 @@ Here's How To Play:
 - Collect special
 
 ## Deck
-|  ID  |  Number  |  Player  |  Play  |
+|  ID  |  Card Number  |  Player  |  Play  |
 | ------------- | ------------- | ------------- | ------------- |
 |  101  |  1  |  Kevin Appier  |  Strikeout  |
 |  201  |  1  |  Kevin Appier  |  Pickoff, Lead Runner Out  |
