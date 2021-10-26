@@ -4,7 +4,7 @@ export const Game = () => (
          <div>
            <h2>Assist backstop batter's box </h2>
            <p>
-             Strike zone friendly confines astroturf batting average save cork
+             Strike zone is friendly confines astroturf batting average save cork
              double play club. Corner slugging grounder no decision yankees fan
              gold glove ground ball win.
            </p>
